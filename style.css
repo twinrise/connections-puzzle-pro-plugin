@@ -1,0 +1,106 @@
+/* Global styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+/* Unified box model settings for page elements */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Sidebar container */
+#__plasmo {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Title style optimization - extremely compact */
+h2 {
+  font-size: 0.75rem !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1 !important;
+  flex-shrink: 0 !important;
+}
+
+/* Header link styles */
+.header-link {
+  font-size: 0.65rem !important;
+  color: #4285f4 !important;
+  text-decoration: none !important;
+  line-height: 1 !important;
+  transition: opacity 0.2s ease;
+}
+
+.header-link:hover {
+  opacity: 0.8;
+  text-decoration: underline !important;
+}
+
+/* Header container styles */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12px;
+  padding: 0 4px;
+  background-color: #f5f5f5;
+  flex-shrink: 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 5px !important;
+  height: 5px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-radius: 5px !important;
+}
+
+/* Responsive iframe styles - focus on height */
+iframe {
+  flex: 1;
+  width: 100%;
+  height: calc(100vh - 12px) !important;
+  min-height: auto !important;
+  border: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: auto !important;
+  display: block !important;
+}
+
+/* Remove possible extra margins */
+body > div {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: auto !important;
+}
+
+/* Ensure no vertical gaps */
+div, p, h1, h2, h3, h4, h5, h6, section, article, aside, nav, main, footer, header {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Enable smooth scrolling */
+* {
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: auto;  /* IE and Edge */
+  scrollbar-width: thin;  /* Firefox */
+} 
