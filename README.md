@@ -1,12 +1,10 @@
-# Free Connections Puzzle Pro Plugin
+# Free Connections game Pro Plugin
 
-A Chrome browser extension that allows users to directly play the popular Connections Puzzle game by embedding the https://connectionspuzzlepro.org/ website.
+A Chrome browser extension that allows users to directly play the popular Connections game by embedding the https://connectionspuzzlepro.org/ website.
 
 ## Features
 
-- Play Connections Puzzle anytime and anywhere
-- Automatic word selection
-- Multiple access methods: standalone popup, website, or switch between tabs
+- Use Connections Puzzle Pro to replay past Connections game and challenge yourself, unlocking more mental enjoyment. Relive classic connections puzzle anytime, anywhere.
 
 ## Development
 
