@@ -60,7 +60,7 @@ function SidePanel() {
         src="https://connectionspuzzlepro.org/"
         style={{
           width: "100%",
-          height: "calc(100vh - 12px)",
+          height: "calc(100vh - 20px)",
           border: "none",
           overflow: "auto",
           flexGrow: 1,
