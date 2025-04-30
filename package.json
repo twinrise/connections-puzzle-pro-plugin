@@ -25,14 +25,11 @@
   },
   "manifest": {
     "host_permissions": [
-      "https://*/*",
       "https://connectionspuzzlepro.org/*"
     ],
     "permissions": [
-      "activeTab",
-      "storage",
       "sidePanel",
-      "contextMenus"
+      "windows"
     ],
     "side_panel": {
       "default_path": "sidepanel.html",
